@@ -945,6 +945,12 @@ textarea {
 
 /* #region media queries */
 @media (min-width: 320px) {
+  .body {
+    min-width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .nav-list {
     display: none;
   }
