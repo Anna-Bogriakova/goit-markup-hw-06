@@ -1121,12 +1121,15 @@ textarea {
     margin-left: 0;
   }
 
-  .modal {
+  .modal-overlay {
     min-width: 288px;
-    padding: 24px;
+    padding: 72px 16px 24px 16px;
   }
 
-  .modal-text-p {
-    width: 100%;
+  .header-menu-icon {
+    fill: #2f2f37;
+    position: absolute;
+    right: 16px;
+    top: 16px;
   }
 }
