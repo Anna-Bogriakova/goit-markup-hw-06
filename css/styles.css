@@ -690,7 +690,7 @@ margin-top: 8px;
 
   
   .portfolio-overlay-text {
-    visibility: none;
+    display: none;
   }
   
   .portfolio-container-item {
@@ -907,7 +907,6 @@ color: #f4f4fd;
     cursor: pointer;
     border: none;
     margin-top: 16px;
-    margin-bottom: 100px;
   }
   .footer-button-icon {
     fill: #fff;
@@ -953,9 +952,6 @@ color: #f4f4fd;
     justify-content: flex-start;
   }
  }
-.footer-button {
- margin: 0;
-}
 
 @media screen and (min-width: 1158px) {
 
